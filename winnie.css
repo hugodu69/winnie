@@ -1,0 +1,146 @@
+#winniepicture
+{
+  display: flex;
+  background-color: grey;
+  height: 300px;
+}
+
+#circle
+{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100px;
+  margin: auto;
+  
+}
+
+.imgwinnie
+{
+  width: 350px;
+  position: relative;
+  right: 100px;
+}
+
+.imgtigrou
+{
+  width: 300px;
+  position: relative;
+  right: 40px;
+  bottom: 15px;
+}
+
+.imgporcinet
+{
+  width: 360px;
+  position: relative;
+  right: 70px;
+}
+
+.imgbourriquet
+{
+  width: 270px;
+  position: relative;
+  right: 5px;
+}
+
+.imggoldorak
+{
+  width: 200px;
+  position: relative;
+  right: 5px;
+  top: 51px;
+}
+
+#winnietxt
+{
+  padding: 20px;
+  background-color: grey;
+}
+
+#friendstxt
+{
+  background-color: grey;
+  display: flex;
+}
+
+#friendstxt p
+{
+  padding: 0px 30px 0px 30px;
+}
+
+p
+{
+  text-align: justify;
+  padding: 0px 10px 0px 10px;
+}
+
+#friendspics
+{
+  display: flex;
+  height: 300px;
+  background-color: grey;
+}
+
+.picture
+{
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 8px 8px 6px black;
+}
+
+
+
+nav
+{
+  display: flex;
+  background-color: grey;
+  margin: auto;
+  padding: 20px 20px 20px 20px;
+}
+
+#logo
+{
+  width: 500px;
+  display: flex;
+  margin: auto;
+}
+
+a
+{
+  margin: auto;
+}
+
+#twitter img
+{
+  height: 50px;
+}
+
+#youtube img
+{
+  height: 45px;
+  position: relative;
+  top: 2px;
+  left: 20px;
+}
+
+#instagram img
+{
+  height: 65px;
+  position: relative;
+  left: 20px;
+}
+
+a:hover
+{
+
+}
+
+
+
+
+
+
