@@ -5,6 +5,19 @@
   height: 300px;
 }
 
+/*
+#circletxt
+{
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+}*/
+
+#entete
+{
+  margin: auto;
+}
+
 #circle
 {
   width: 200px;
@@ -12,7 +25,56 @@
   overflow: hidden;
   border-radius: 100px;
   margin: auto;
+  margin-top: 50px;
   
+}
+
+#circletxt
+{
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  right: 15px;
+}
+
+#circletxt span
+{
+  font: 50px Monaco, Monospace;
+  font-weight: bold;
+  color: pink;
+  height: 200px;
+  position: absolute;
+  border: 1px solid black; 
+  transform-origin: bottom center;
+}
+
+#w
+{
+  transform: rotate(-30deg);
+}
+#i
+{
+  transform: rotate(-18deg);
+}
+
+#n
+{
+  transform: rotate(-6deg);
+}
+
+#nn
+{
+  transform: rotate(6deg);
+}
+
+#ii
+{
+  transform: rotate(18deg);
+}
+
+#e
+{
+  transform: rotate(30deg);
 }
 
 .imgwinnie
@@ -122,25 +184,25 @@ a
 #youtube img
 {
   height: 45px;
-  position: relative;
-  top: 2px;
-  left: 20px;
+}
+
+#instagram
+{
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
 }
 
 #instagram img
 {
   height: 65px;
   position: relative;
-  left: 20px;
+  right: 25px;
+  bottom: 8px;
 }
 
 a:hover
 {
-
+  transition: transform .9s ease-in-out;
+  transform: rotate(360deg);
 }
-
-
-
-
-
-
